@@ -64,9 +64,6 @@
                 contexto.fillStyle = "white";
                 for (var i = 0; i < serpiente.length; i++) {
                     contexto.fillRect(serpiente[i].x * gs, serpiente[i].y * gs, gs-2, gs-2);
-                    if(serpiente[i].x == posx && serpiente[i].y == posx) {
-                        cuerpo = 5;
-                    }
                 }
                 serpiente.push({x: posx, y: posy});
 
