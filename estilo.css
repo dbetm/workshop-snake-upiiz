@@ -1,0 +1,22 @@
+body {
+    background-image: url('upiiz.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.titulo, .score {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+}
+
+.juego {
+    margin: 15px auto;
+    text-align: center;
+}
+
+canvas {
+    box-shadow: 2px 2px 4px #000;
+}
